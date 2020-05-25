@@ -12,7 +12,7 @@ public class PointClass {
 
     PointClass() throws  IOException {
 
-        Scanner scanner1 = new Scanner(new File("/home/eski/IdeaProjects/Knapsack/src/file.txt"));
+        Scanner scanner1 = new Scanner(new File("/home/eski/IdeaProjects/Knapsack/src/test3.txt"));
         scanner1.useLocale(Locale.ENGLISH);
         int i = 0;
         while (scanner1.hasNextDouble()) {
